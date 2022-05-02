@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Bassclef is a music website that offers music news, criticism, and concert reports from shows in the NYC metro area."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <link rel="icon" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hubballi&family=League+Gothic&family=League+Spartan:wght@400;700&family=Manrope:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+
+    <title>Bassclef &mdash; Music News and Criticism</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <div class="logo">
+        <img
+          src="bass-clef-transparent-background-9.png"
+          alt="Bass Clef"
+          class="bassclef-logo"
+        />
+        <h1 class="logo-text"><a href="#">Bassclef</a></h1>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-link main-nav-link-news"> Music News</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link main-nav-link-report"
+              >Performance Reports</a
+            >
+          </li>
+          <li>
+            <a href="#" class="main-nav-link main-nav-link-criticism"
+              >Critic's Notebook</a
+            >
+          </li>
+          <li>
+            <a href="#" class="main-nav-link main-nav-link-feature">Features</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+      </button>
+    </header>
+    <div id="showcase">
+      <div class="container">
+        <div class="showcase-container">
+          <div></div>
+          <div class="showcase-content">
+            <div class="category category-feature">Feature</div>
+            <h1>The Future Starts Now</h1>
+            <p>The return of live performance</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Articles -->
+    <section id="main-articles">
+      <div class="container">
+        <h2>New and Noteworthy</h2>
+        <div class="articles-container">
+          <article class="card">
+            <img
+              src="frank_ocean.jpg.webp"
+              alt="Frank Ocean"
+              class="article-img"
+            />
+            <div class="card-text">
+              <div class="category category-news">News</div>
+              <h3>Frank Ocean at Coachella 2023</h3>
+              <a href="#" class="article-link"
+                >Here's everything we know so far<ion-icon
+                  name="arrow-round-forward"
+                ></ion-icon
+              ></a>
+            </div>
+          </article>
+
+          <article class="card bg-dark">
+            <img
+              src="dua_lipa.jpg"
+              alt="Dua Lipa on a diamond-shaped stage, kneeling, surrounded by dancers"
+              class="article-img"
+            />
+            <div class="card-text">
+              <div class="category category-report">Performance Report</div>
+              <h3>Dua Lipa</h3>
+              <p>with Caroline Polachek</p>
+              <p>Prudential Center, March 4, 2022</p>
+              <a href="#" class="article-link"
+                >Get your groove on<ion-icon
+                  name="arrow-round-forward"
+                ></ion-icon
+              ></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="glaive.jpg"
+              alt="Glaive on stage, wearing a red coat"
+              class="article-img"
+            />
+            <div class="card-text">
+              <div class="category category-report">Performance Report</div>
+              <h3>Glaive</h3>
+              <p>with Aldn, Midwxst</p>
+              <p>Webster Hall, February 19, 2022</p>
+              <a href="#" class="article-link"
+                >The kid is on fire<ion-icon
+                  name="arrow-round-forward"
+                ></ion-icon
+              ></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="caroline_polachek.jpg"
+              alt="Caroline Polachek on stage, standing at a microphone"
+              class="article-img"
+            />
+            <div class="card-text">
+              <div class="category category-report">Performance Report</div>
+              <h3>Caroline Polachek</h3>
+              <p>with Arooj Aftab and Oklou</p>
+              <p>Terminal 5, December 3, 2021</p>
+              <a href="#" class="article-link"
+                >Color the night electric<ion-icon
+                  name="arrow-round-forward"
+                ></ion-icon
+              ></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="kim_petras.jpg"
+              alt="Kim Petras on stage, singing into the rain"
+              class="article-img"
+            />
+            <div class="card-text">
+              <div class="category category-report">Performance Report</div>
+              <h3>Kim Petras</h3>
+              <p>The Stone Pony, October 9, 2021</p>
+              <a href="#" class="article-link"
+                >Don't let the music stop now
+                <ion-icon name="arrow-round-forward"></ion-icon>
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="sophie.jpeg"
+              alt="Sophie on stage, focused on her music"
+              class="article-img"
+            />
+            <div class="card-text">
+              <div class="category category-feature">Feature</div>
+              <h3>Sophie</h3>
+              <a href="#" class="article-link">
+                A year after her sudden and tragic passing, we evaluate the pop
+                landscape <ion-icon name="arrow-round-forward"></ion-icon>
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-text">
+              <div class="category category-review">Review</div>
+              <h3>The Weeknd</h3>
+              <p>Dawn FM</p>
+              <a href="#" class="article-link">
+                Starting the year on a high note
+                <ion-icon name="arrow-round-forward"></ion-icon>
+              </a>
+            </div>
+            <img
+              src="the_weeknd.jpg"
+              alt="Image of The Weeknd from his GQ cover shoot in a pinstripe suit and python boots"
+              class="aricle-img weeknd-img"
+            />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="container footer-container">
+        <div class="footer-logo">
+          <img
+            src="bass-clef-transparent-background-9.png"
+            alt="Bass Clef"
+            class="bassclef-logo"
+          />
+          <h1 class="logo-text"><a href="#">Bassclef</a></h1>
+        </div>
+        <div>
+          <h3>Email Newsletter</h3>
+          <p>Sign up to get the latest updates</p>
+          <form data-netlify="true">
+            <input type="email" placeholder="Enter Email" />
+            <input type="submit" value="Subscribe" class="btn" />
+          </form>
+        </div>
+        <div>
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
